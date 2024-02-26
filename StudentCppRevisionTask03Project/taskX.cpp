@@ -43,5 +43,6 @@
 */
 
 bool taskX(int n, int m, int k) {
+	
     return false;
 }
