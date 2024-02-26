@@ -48,9 +48,5 @@ bool taskX(int n, int m, int k) {
 		return false;
 	}
 
-	if (n * m <= k) {
-		return false;
-	}
-
-    return k % m == 0 || k % n == 0;
+    return (k % m == 0 || k % n == 0) && !(n * m <= k);
 }
